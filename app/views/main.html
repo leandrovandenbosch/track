@@ -1,0 +1,266 @@
+<div class="container">
+    <div class="row profile" style="    min-height: 100%;
+    position: relative;">
+    <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR USERPIC -->
+        <div class="profile-userpic">
+          <img src="../../images/default-profile.jpg" class="img-responsive" alt="">
+        </div>
+        <!-- END SIDEBAR USERPIC -->
+        <!-- SIDEBAR USER TITLE -->
+        <div class="profile-usertitle">
+          <div class="profile-usertitle-name">
+            Nicolas Lorusso
+          </div>
+          <div class="profile-usertitle-job">
+            Interviewer
+          </div>
+        </div>
+        <!-- END SIDEBAR USER TITLE -->
+        <!-- SIDEBAR BUTTONS -->
+        <div class="profile-userbuttons">
+          <button type="button" class="btn btn-success btn-sm">Settings</button>
+          <button type="button" class="btn btn-danger btn-sm">Logout</button>
+        </div>
+        <!-- END SIDEBAR BUTTONS -->
+        <!-- SIDEBAR MENU -->
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">
+              <i class="glyphicon glyphicon-home"></i>
+              Overview </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Check Pending Interviews</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+              <i class="glyphicon glyphicon-ok"></i>
+              Tasks </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-flag"></i>
+              Help </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-md-9">
+            <div class="profile-content">
+               <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search for snippets" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                        <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                    <label for="filter">Filter by</label>
+                                    <select class="form-control">
+                                        <option value="0" selected>All Snippets</option>
+                                        <option value="1">Featured</option>
+                                        <option value="2">Most popular</option>
+                                        <option value="3">Top rated</option>
+                                        <option value="4">Most commented</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Author</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Contains the words</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- table -->
+
+
+    <section class="content">
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="pull-right">
+              <div class="btn-group">
+                <button type="button" class="btn btn-success btn-filter" data-target="Closed">Closed</button>
+                <button type="button" class="btn btn-warning btn-filter" data-target="Open">Open</button>
+                <button type="button" class="btn btn-danger btn-filter" data-target="Pending">Pending</button>
+                <button type="button" class="btn btn-default btn-filter" data-target="all">Todos</button>
+              </div>
+            </div>
+            <div class="table-container">
+              <table class="table table-filter">
+                <tbody>
+                  <tr data-status="Closed">
+                    <td>
+                      <div class="ckbox">
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1"></label>
+                      </div>
+                    </td>
+                    <td>
+                      <a href="javascript:;" class="star">
+                        <i class="glyphicon glyphicon-star"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <div class="media">
+                        <a href="#" class="pull-left">
+                          <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                        </a>
+                        <div class="media-body">
+                          <span class="media-meta pull-right">Febrero 13, 2016</span>
+                          <h4 class="title">
+                            Lorem Impsum
+                            <span class="pull-right closed">(Closed)</span>
+                          </h4>
+                          <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr data-status="Open">
+                    <td>
+                      <div class="ckbox">
+                        <input type="checkbox" id="checkbox3">
+                        <label for="checkbox3"></label>
+                      </div>
+                    </td>
+                    <td>
+                      <a href="javascript:;" class="star">
+                        <i class="glyphicon glyphicon-star"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <div class="media">
+                        <a href="#" class="pull-left">
+                          <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                        </a>
+                        <div class="media-body">
+                          <span class="media-meta pull-right">Febrero 13, 2016</span>
+                          <h4 class="title">
+                            Lorem Impsum
+                            <span class="pull-right open">(Open)</span>
+                          </h4>
+                          <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr data-status="Pending">
+                    <td>
+                      <div class="ckbox">
+                        <input type="checkbox" id="checkbox2">
+                        <label for="checkbox2"></label>
+                      </div>
+                    </td>
+                    <td>
+                      <a href="javascript:;" class="star">
+                        <i class="glyphicon glyphicon-star"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <div class="media">
+                        <a href="#" class="pull-left">
+                          <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                        </a>
+                        <div class="media-body">
+                          <span class="media-meta pull-right">Febrero 13, 2016</span>
+                          <h4 class="title">
+                            Lorem Impsum
+                            <span class="pull-right pending">(Pending)</span>
+                          </h4>
+                          <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr data-status="Closed" class="selected">
+                    <td>
+                      <div class="ckbox">
+                        <input type="checkbox" id="checkbox4" checked>
+                        <label for="checkbox4"></label>
+                      </div>
+                    </td>
+                    <td>
+                      <a href="javascript:;" class="star star-checked">
+                        <i class="glyphicon glyphicon-star"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <div class="media">
+                        <a href="#" class="pull-left">
+                          <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                        </a>
+                        <div class="media-body">
+                          <span class="media-meta pull-right">Febrero 13, 2016</span>
+                          <h4 class="title">
+                            Lorem Impsum
+                            <span class="pull-right closed">(Closed)</span>
+                          </h4>
+                          <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr data-status="Open">
+                    <td>
+                      <div class="ckbox">
+                        <input type="checkbox" id="checkbox5">
+                        <label for="checkbox5"></label>
+                      </div>
+                    </td>
+                    <td>
+                      <a href="javascript:;" class="star">
+                        <i class="glyphicon glyphicon-star"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <div class="media">
+                        <a href="#" class="pull-left">
+                          <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+                        </a>
+                        <div class="media-body">
+                          <span class="media-meta pull-right">Febrero 13, 2016</span>
+                          <h4 class="title">
+                            Lorem Impsum
+                            <span class="pull-right open">(Open)</span>
+                          </h4>
+                          <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    
+
+
+          </div>
+            </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
