@@ -1,0 +1,260 @@
+<div class="container">
+    <div class="row profile" style="    min-height: 100%;
+    position: relative;">
+    <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR USERPIC -->
+        <div class="profile-userpic">
+          <img src="../../images/default-profile.jpg" class="img-responsive" alt="">
+        </div>
+        <!-- END SIDEBAR USERPIC -->
+        <!-- SIDEBAR USER TITLE -->
+        <div class="profile-usertitle">
+          <div class="profile-usertitle-name">
+            Nicolas Lorusso
+          </div>
+          <div class="profile-usertitle-job">
+            Interviewer
+          </div>
+        </div>
+        <!-- END SIDEBAR USER TITLE -->
+        <!-- SIDEBAR BUTTONS -->
+        <div class="profile-userbuttons">
+          <button type="button" class="btn btn-success btn-sm">Settings</button>
+          <button type="button" class="btn btn-danger btn-sm">Logout</button>
+        </div>
+        <!-- END SIDEBAR BUTTONS -->
+        <!-- SIDEBAR MENU -->
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">
+              <i class="glyphicon glyphicon-home"></i>
+              Overview </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Check Pending Interviews</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+              <i class="glyphicon glyphicon-ok"></i>
+              Tasks </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-flag"></i>
+              Help </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-md-9">
+            <div class="profile-content">
+
+            <!-- Container de form para carga de cv -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-lg-12">
+            <h1 class="h1" style="padding-bottom:15px;">Cargar Entrevista <small>interview</small></h1>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form id="FormEnvioCorreo">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                              <label for="sel1">Estado de la Entrevista:</label>
+                              <select class="form-control" id="sel1">
+                                <option>Pending</option>
+                                <option>Open</option>
+                                <option>Closed</option>
+                              </select>
+                            </div>
+
+
+                            <div class="form-group">
+                              <label for="sel1">RRHH Asignado:</label>
+                              <select class="form-control" id="sel1">
+                                <option>Nicolas Amitrano</option>
+                              </select>
+                            </div>
+
+                            <div class="form-group">
+                            <label for="sel1">Tech Asignado:</label>
+                              <select class="form-control" id="sel1">
+                                <option>Nicolas Amitrano</option>
+                              </select>
+                            </div>
+
+
+
+                            <div class="form-group">
+                                <label for="subject">
+                                    Nombre y Apellido:</label>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required="required" value="Prueba">
+                            </div>
+
+
+
+
+
+                            <div class="form-group">
+                                <label for="sel1">Soft Skills</label>
+                                <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required" placeholder="Message">Prueba</textarea>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="name">
+                                    Strenght</label>
+                                <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required" placeholder="Message">Prueba</textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">
+                                    Languages</label>
+                                <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required" placeholder="Message">Prueba</textarea>
+                            </div>
+
+
+                            <div class="form-group">
+                            <label for="sel1">Hire:</label>
+                              <select class="form-control" id="sel1">
+                                <option>Si</option>
+                                <option>No</option>
+                              </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">
+                                    Summary Overall</label>
+                                <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required" placeholder="Message">Prueba</textarea>
+                            </div>
+
+
+
+                            <!--
+                            <div class="form-group">
+                                <label for="email">
+                                   Contacto</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                    </span>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter number fax" required="required" value="1234567891012">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Nombre y Apellido</label>
+                                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required="required" value="Prueba">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">
+                                        CV</label>
+
+                                    <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+                                </div>
+
+                            </div>-->
+
+                        </div>
+                        <div class="col-md-6">
+
+
+                                                    <div class="form-group">
+                              <label for="sel1">Interview Date:</label>
+
+                                              <div class='input-group date' id='datetimepicker1' style="padding-bottom:0 !important;">
+                                                  <input type='text' class="form-control" />
+                                                  <span class="input-group-addon">
+                                                      <span class="glyphicon glyphicon-calendar"></span>
+                                                  </span>
+                                              </div>
+                                      <script type="text/javascript">
+                                          $(function () {
+                                              $('#datetimepicker1').datetimepicker();
+                                          });
+                                      </script>
+                            </div>
+
+
+                                                        <div class="form-group">
+                                <label for="name">CV:</label>
+                                <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+                            </div>
+
+
+                                                        <div class="form-group">
+                            <label for="sel1">Experience Time:</label>
+                                <select class="form-control" id="sel1">
+                                  <option>Menos de 1 año</option>
+                                  <option>Entre 2 y 4 años</option>
+                                  <option>Entre 5 y 7 años</option>
+                                  <option>Mas de 8 años</option>
+                                </select>
+                            </div>
+
+
+
+                            <div class="form-group">
+                            <label for="sel1">Job Family:</label>
+                                <select class="form-control" id="sel1">
+                                  <option>Art</option>
+                                  <option>Technical</option>
+                                  <option>QA</option>
+                                  <option>Publishing</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">
+                                    Area Skills</label>
+                                <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required" placeholder="Message">Prueba</textarea>
+                            </div>
+
+                                                        <div class="form-group">
+                                <label for="name">
+                                    Weakness</label>
+                                <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required" placeholder="Message">Prueba</textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+
+
+                            <div class="control-group">
+                                <label class="control-label" for="button1id"></label>
+                                <div class="controls">
+                                    <button id="button1id" name="button1id" class="btn btn-success">Save</button>
+                                    <button id="button2id" name="button2id" class="btn btn-danger">Clear</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>
+<!-- Fin de container de form para carga de cv -->
+   
+
+            </div>
+    </div>
+</div>
+
+
+
+

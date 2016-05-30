@@ -34,6 +34,16 @@ angular
         controller: 'LoginCtrl',
         controllerAs: 'login'
       })
+      .when('/loadcv', {
+        templateUrl: 'views/loadcv.html',
+        controller: 'LoadCVCtrl',
+        controllerAs: 'loadcv'
+      })
+      .when('/loadinterview', {
+        templateUrl: 'views/loadinterview.html',
+        controller: 'LoadInterviewCtrl',
+        controllerAs: 'loadinterview'
+      })
       .otherwise({
         redirectTo: '/login'
       });

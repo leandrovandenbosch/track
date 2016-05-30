@@ -54,7 +54,7 @@
     </div>
     <div class="col-md-9">
             <div class="profile-content">
-               <div class="input-group" id="adv-search">
+               <div class="input-group" id="adv-search" style="float:left;padding-left:20px;padding-top:30px;">
                 <input type="text" class="form-control" placeholder="Search for snippets" />
                 <div class="input-group-btn">
                     <div class="btn-group" role="group">
@@ -88,6 +88,18 @@
                     </div>
                 </div>
             </div>
+            <ul class="ds-btn" style="display:inline-block;padding-top:15px;">
+              <li>
+                <a class="btn btn-lg btn-primary" ng-click="loadInterview()">
+                  <i class="glyphicon glyphicon-user pull-left"></i><span>Entrevista<br></span>
+                </a> 
+              </li>
+              <li>
+                <a class="btn btn-lg btn-success" ng-click="loadCV()">
+                  <i class="glyphicon glyphicon-dashboard pull-left"></i><span>CV<br></span>
+                </a> 
+              </li>
+            </ul>
 
             <!-- table -->
 
